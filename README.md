@@ -1,5 +1,13 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="" group-title="",bitmovin
+#KODIPROP:inputstream.adaptive.license_type=cleark ey
+#KODIPROP:inputstream.adaptive.license_key= bb0ecaa6ae62336197c64d4129c6a09d:cb0bba4522ffcd90a8b51541a0fcfae0
+https://dtvott-cbc.akamaized.net/dash_live_1057/manifest.mpd
+
+
+
+
 #EXTINF:-1 tvg-logo="" group-title="TEST" tvg-id="",Test directv
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
