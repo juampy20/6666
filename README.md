@@ -1,11 +1,19 @@
 #EXTM3U
 
+
+#EXTINF:-1 tvg-logo="" group-title="TEST" tvg-id="",Test
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"key":"100b6c20940f779a4589152b57d2dacb","kid":"eb676abbcb345e96bbcf616630f1a3da"}]}
+https://bitmovin-a.akamaihd.net/content/art-of-motion_drm/mpds/11331.mpd
+
+
 #EXTINF:-1 tvg-logo="" group-title="",bitmovin
-#KODIPROP:inputstream.adaptive.license_type=cleark ey
-#KODIPROP:inputstream.adaptive.license_key= bb0ecaa6ae62336197c64d4129c6a09d:cb0bba4522ffcd90a8b51541a0fcfae0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bb0ecaa6ae62336197c64d4129c6a09d:cb0bba4522ffcd90a8b51541a0fcfae0
 https://dtvott-cbc.akamaized.net/dash_live_1057/manifest.mpd
-
-
 
 
 #EXTINF:-1 tvg-logo="" group-title="TEST" tvg-id="",Test directv
